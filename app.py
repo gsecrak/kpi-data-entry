@@ -312,7 +312,7 @@ except Exception as e:
 # ============================================================
 if st.button("🔄 Load KPI Data (Actual9.xlsm)", type="primary"):
     try:
-        with st.spinner("Reading 'Entry' table from Actual9.xlsm..."):
+        with st.spinner("Reading 'Entry' table from Actual0.xlsm..."):
             df = read_excel_sheet(access_token, drive_id)
 
         if df.empty:
